@@ -49,7 +49,7 @@ export default function Navbar() {
       <div className="container-max px-4 md:px-8 lg:px-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <img src="public/logo.png" alt="Macia Inmobiliaria" style={{ height: '40px', width: 'auto' }} />
+          <img src="/logo.png" alt="Macia Inmobiliaria" style={{ height: '40px', width: 'auto' }} />
         </Link>
 
         {/* Desktop links */}

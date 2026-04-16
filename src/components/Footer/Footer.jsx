@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-              <img src="public/logo.png" alt="Macia Inmobiliaria" style={{ height: '45px', width: 'auto' }} />
+              <img src="/logo.png" alt="Macia Inmobiliaria" style={{ height: '45px', width: 'auto' }} />
             </div>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem', lineHeight: 1.7, maxWidth: '260px' }}>
               Tu inmobiliaria de confianza en Campana. Más de 15 años acompañando a familias y empresas.

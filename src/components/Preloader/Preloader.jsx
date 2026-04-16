@@ -35,7 +35,7 @@ export default function Preloader() {
       }}
     >
       <div ref={logoRef} style={{ opacity: 0 }}>
-        <img src="public/logo.png" alt="Macia Inmobiliaria" style={{ height: '80px', width: 'auto' }} />
+        <img src="/logo.png" alt="Macia Inmobiliaria" style={{ height: '80px', width: 'auto' }} />
       </div>
     </div>
   )
