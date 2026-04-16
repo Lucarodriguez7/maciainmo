@@ -11,15 +11,15 @@ export default function Preloader() {
       { opacity: 0, scale: 0.8, y: 20 },
       { opacity: 1, scale: 1, y: 0, duration: 0.7, ease: 'power3.out' }
     )
-    .to(preloaderRef.current, {
-      opacity: 0,
-      duration: 0.6,
-      delay: 0.8,
-      ease: 'power2.inOut',
-      onComplete: () => {
-        if (preloaderRef.current) preloaderRef.current.style.display = 'none'
-      }
-    })
+      .to(preloaderRef.current, {
+        opacity: 0,
+        duration: 0.6,
+        delay: 0.8,
+        ease: 'power2.inOut',
+        onComplete: () => {
+          if (preloaderRef.current) preloaderRef.current.style.display = 'none'
+        }
+      })
   }, [])
 
   return (
@@ -35,7 +35,7 @@ export default function Preloader() {
       }}
     >
       <div ref={logoRef} style={{ opacity: 0 }}>
-        <img src="/logo.png" alt="Macia Inmobiliaria" style={{ height: '80px', width: 'auto' }} />
+        <img src="public/logo.png" alt="Macia Inmobiliaria" style={{ height: '80px', width: 'auto' }} />
       </div>
     </div>
   )
